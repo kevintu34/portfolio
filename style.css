@@ -1,0 +1,148 @@
+/* imports the font */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Martel&family=Oswald:wght@200;400&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+/* normalizes box borders */
+*{
+  box-sizing: border-box;  
+}
+
+/* HEADER */
+/* sets color and padding for heading */
+header {
+  background-color: #758173;
+  height: 110px;
+}
+
+/* sets font settings for heading h1*/
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin: 20px;
+}
+
+/* sets font settings for heading paragraphs*/
+header p {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: -25px;
+  padding-bottom: 20px;
+}
+
+/* MAIN CONTAINER */
+/* -GENERAL ARTICLE FORMATTING */
+/* sets font settings for acticle headings */
+article h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* sets font settings for article paragraphs */
+article, footer p {
+  font-family: "Dosis", serif;
+  font-size: 18px;
+}
+
+/* sets placement for h2 */
+article h2 {
+  font-size: 50px;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* sets placement for h3 */
+article h3 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: -45px;
+}
+
+/* sets list formatting */
+li {
+  font-family: "Dosis", serif;
+  list-style-position: inside;
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+/* sets spacing from next section*/
+.intro, .about, .contact {;
+  margin-top: -42px;
+  padding-bottom: 100px;
+}
+
+/* -INTRO (MOUNTAIN) */
+/* sets background image for heading*/
+.intro {
+  background-image: url("images/mountain.jpg");
+}
+
+/* -ABOUT */
+/* sets width of containers being centered */
+.about-width {
+  width: 525px;
+  margin: 0 auto
+}
+
+/* FOOTER */
+footer {
+  background-color: #758173;
+  height: 40px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 9px;
+  color: white;
+}
+
+hr {
+  background-color: black;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/*formatting for image*/
+.image-width {
+  width: 300px;
+}
+
+/* formats padding for contact p */
+.contact-pad {
+  padding-left: 80px;
+}
+
+/* sets text to white for dark backgrounds*/
+.lightmode {
+  color: white;
+}
+
+/* sets text to dark color scheme for white background */
+.darkmode {
+  color: #453643;
+}
+
+/*sets psuedo-classes from links*/
+a:link {
+  color: #758173;
+}
+
+a:visited {
+  color: #FFD747;
+}
+
+a:hover {
+  color: #C0E8F9;
+}
+
+a:active {
+  color: #0A210F;
+}
